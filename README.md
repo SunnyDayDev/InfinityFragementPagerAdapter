@@ -5,6 +5,6 @@ This is endless adapter. It can be two type:
 
 # Usage
 ViewPager delegate some funcions to adapter.
--setCurrentItem;
--getCurrentItem;
--setOnPageChangeListener;
+- setCurrentItem;
+- getCurrentItem;
+- setOnPageChangeListener;
