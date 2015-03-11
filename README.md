@@ -10,3 +10,7 @@ ViewPager delegate some funcions to adapter.
 - setOnPageChangeListener;
 
 For set type infinity shift return in getRealCount() COUNT_INFINITY_SHIFT
+
+# Installation
+Jast copy or download InfinityFragmentPagerAdapter.java and add it to your project.
+- Path to it :app/src/main/java/ru/infinityfragementpageradapter/InfinityFragmentPagerAdapter.java
