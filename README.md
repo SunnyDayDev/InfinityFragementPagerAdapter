@@ -9,4 +9,4 @@ ViewPager delegate some funcions to adapter.
 - getCurrentItem;
 - setOnPageChangeListener;
 
-For infinity shift type return in getRealCount() COUNT_INFINITY_SHIFT
+For set type infinity shift return in getRealCount() COUNT_INFINITY_SHIFT
