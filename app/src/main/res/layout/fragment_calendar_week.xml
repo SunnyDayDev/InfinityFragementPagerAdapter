@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/day_title_height">
+
+        <ImageButton
+            android:layout_width="@dimen/day_title_height"
+            android:layout_height="@dimen/day_title_height"
+            android:src="@android:drawable/ic_media_previous"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/date_title"
+            android:gravity="center"
+            tools:text="12 - 23 февраля"/>
+
+        <ImageButton
+            android:layout_width="@dimen/day_title_height"
+            android:layout_height="@dimen/day_title_height"
+            android:src="@android:drawable/ic_media_next"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:id="@+id/test"/>
+
+    <EditText
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:id="@+id/pager"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
