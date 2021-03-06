@@ -1,3 +1,5 @@
+# [ARCHIVED]
+
 # InfinityFragmentPagerAdapter
 This is endless fragment adapter for ViewPager. It can be two type:
 - Cyclic. It create pages by cycle. if count 3 than cycle is like 0-1-2-0-1-2-0-1-2...
